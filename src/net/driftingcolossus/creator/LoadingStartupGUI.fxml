@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Rectangle2D?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressIndicator?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="260.0" prefWidth="480.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="260.0" fitWidth="480.0" pickOnBounds="true">
+         <viewport>
+            <Rectangle2D />
+         </viewport></ImageView>
+      <ProgressIndicator layoutX="15.0" layoutY="147.0" prefHeight="70.0" prefWidth="75.0" progress="1.0" style="-fx-accent: red;" />
+      <ProgressIndicator layoutX="90.0" layoutY="147.0" prefHeight="70.0" prefWidth="75.0" progress="1.0" style="-fx-accent: orange;" />
+      <ProgressIndicator layoutX="165.0" layoutY="147.0" prefHeight="70.0" prefWidth="75.0" progress="1.0" style="-fx-accent: yellow;" />
+      <ProgressIndicator layoutX="241.0" layoutY="147.0" prefHeight="70.0" prefWidth="75.0" progress="1.0" style="-fx-accent: lime;" />
+      <ProgressIndicator layoutX="316.0" layoutY="147.0" prefHeight="70.0" prefWidth="75.0" progress="1.0" style="-fx-accent: cyan;" />
+      <ProgressIndicator layoutX="391.0" layoutY="147.0" prefHeight="70.0" prefWidth="75.0" progress="1.0" style="-fx-accent: magenta;" />
+      <Label alignment="CENTER" layoutX="14.0" layoutY="14.0" prefHeight="51.0" prefWidth="456.0" text="Drifting Colossus Creator">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="23.0" layoutY="130.0" text="Services [0/0]">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Label layoutX="407.0" layoutY="130.0" text="Utils [0/0]">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Label layoutX="326.0" layoutY="130.0" text="Update [0/0]">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Label layoutX="111.0" layoutY="130.0" text="IO [0/0]">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Label layoutX="180.0" layoutY="130.0" text="GUIS [0/0]">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Label layoutX="251.0" layoutY="130.0" text="Plugins [0/0]">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Label layoutX="374.0" layoutY="229.0" text="Apollo 0.1.0.1000" />
+   </children>
+</Pane>
